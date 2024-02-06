@@ -317,7 +317,7 @@ const DetailPage = () => {
 
     const handleBtn = (nickname) => {
         //글사용자와 현재 사용자의 닉네임이 같으면
-        if(nickname === "눈송"){
+        if(nickname === localStorage.getItem('usernickname')){
             console.log("참");
             setIsTrue(true);
             return isTrue;
@@ -374,11 +374,11 @@ const DetailPage = () => {
                         <CommentBMLine>
                             <CommentBMDiv>
                                 <img src={comment}/>
-                                <HowMany>2</HowMany>
+                                <HowMany>{detail.comment_count}</HowMany>
                             </CommentBMDiv>
                             <CommentBMDiv onClick={handleBM} style={isBM? {borderColor:"#6695F1", backgroundColor:"#E6EEFC"}: {}}>
                                 {isBM? <img src={bookmark_on}/> :<img src={bookmark}/>}
-                                <HowMany style={isBM? {color:"#6695F1"} : {}}>{detail.bookmarks_count}</HowMany>
+                                <HowMany style={isBM? {color:"#6695F1"} : {}}>{detail.bookmark_count}</HowMany>
                             </CommentBMDiv>
                         </CommentBMLine>
                         {isTrue ? (
