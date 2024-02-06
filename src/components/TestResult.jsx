@@ -199,7 +199,7 @@ const TestResult = ({ result }) => {
                 </>
                 :
                 <>
-                <MName>@@@님의 여행 성향</MName>
+                <MName>{localStorage.getItem('testid')}님의 여행 성향</MName>
                 <MContainer>
                     <MImage src={infoList[result].img} />
                 </MContainer>

@@ -4,6 +4,7 @@ import React, {useState} from 'react';
 import styled from 'styled-components';
 import Test from '../../components/Test';
 import { useMediaQuery } from "react-responsive";
+import { color } from 'framer-motion';
 
 const StartButton = styled.button`
   background-color: #6695F1;
@@ -48,9 +49,15 @@ const TestPage = () => {
   const isDesktop = useMediaQuery({ minWidth: 750 });
 
   const [showMain, setShowMain] = useState(true);
+  const [nickname, setNickname] = useState('');
 
   const handleStartTest = () => {
     setShowMain(false);
+    localStorage.setItem('testid', nickname);
+  };
+
+  const onChangeName = (e) => {
+    setNickname(e.target.value);
   };
 
   return (
@@ -88,6 +95,15 @@ const TestPage = () => {
             <MText>
             여러분의 여행 성향 테스트를 시작하겠습니다.
             </MText>
+            <MInputContainer>
+            <NameInput
+              type='text'
+              name='nickname'
+              value={nickname}
+              onChange={onChangeName}
+              placeholder='닉네임'
+            />
+            </MInputContainer>
             <MButtonContainer>
               <MStartButton onClick={handleStartTest}>
                 테스트 시작
@@ -105,6 +121,28 @@ const TestPage = () => {
 };
 
 export default TestPage;
+
+const MInputContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
+const NameInput = styled.input`
+  background-color: #8e8e8e7e;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  outline: none;
+  width: 150px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 10px;
+  &::placeholder {
+    color: #ffffff64;
+  }
+`
 
 
 const MStartButton = styled.button`

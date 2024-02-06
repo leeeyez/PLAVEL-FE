@@ -37,7 +37,7 @@ const Explain = styled.div`
 const HomeTitle = styled.div`
     color: #262626;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 700;
     margin-left: 60px;
 `
 const ListContainer = styled.div`
@@ -127,8 +127,8 @@ const MapDiv = styled.div`
 `
 
 let list = [
-    {id: 1, title: '첫번째 글', detail: '첫번째 글 내용 어쩌구저쩌구 블라블라 샬라샬라', writer: '데미소다', label: label_blackhole, date: '2024/01/10 21:25', comment: 2, bookmark: 20},
-    {id: 2, title: '두번째 글', detail: '두번째 글 내용 어쩌구저쩌구 블라블라 샬라샬라', writer: '데미소다', label: label_comet, date: '2024/01/10 21:25', comment: 10, bookmark: 2},
+    {id: 1, title: '오사카 여행 후기!', detail: '오사카에 다녀왔습니다! 확실히 서울보단 따뜻해서 좋았어요. 3~4개월 전부터 준비...', writer: '눈송', label: label_whitehole, date: '2024-02-06T04:54:53.419178', comment: 2, bookmark: 2},
+    {id: 2, title: '이것은 여행인가 먹방인가', detail: '바르셀로나에서 먹는 랍스타 파스타 아주 맛도리입니다. 이거 먹고 티라미수까지 먹..', writer: '태양임', label: label_sun, date: '2024-02-06T05:04:54.315333', comment: 1, bookmark: 1},
 ];  
 
 const HomePage = () => {
