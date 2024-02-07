@@ -359,7 +359,7 @@ const DetailPage = () => {
                 <DetailContainer>
                     <Detail>
                         <FirstLine>
-                            <SmallProfileImg src={mylogo}/>
+                            <SmallProfileImg src={profile}/>
                             <ProfileDiv>
                                 <ProfName>{post.nickname}</ProfName>
                                 <Date>{detail.updated_at}</Date>
@@ -413,7 +413,7 @@ const DetailPage = () => {
                     <InfoBox>
                         <Text>글쓴이</Text>
                         <InfoDiv>
-                            <ProfileImg src={mylogo}/>
+                            <ProfileImg src={profile}/>
                             <MainInfo>
                                 <Age>{age}세 / {gender[post.gender]}</Age>
                                 <Name>{post.nickname}</Name>

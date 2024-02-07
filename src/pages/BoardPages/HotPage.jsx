@@ -297,7 +297,7 @@ const HotPage = () => {
                     <MyInfoBox>
                         <Text>나의 정보</Text>
                         <MyDiv>
-                            <ProfileImg src={mylogo}/>
+                            <ProfileImg src={userimg}/>
                             <MyLabelExp>{sub_title[usertype]}</MyLabelExp>
                             <MyName>{usernickname}</MyName>
                             <MyLabel src={label[usertype]}/>
