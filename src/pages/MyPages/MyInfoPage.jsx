@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import TopBar from '../../components/TopBar';
 import MyBar from '../../components/MyBar';
+import mylogo from '../../images/mypage_icon.png';
 import profileimg from '../../images/dummyprofileimg.png';
 import axios from 'axios';
 import Cookies from 'js-cookie'
@@ -148,7 +149,7 @@ const MyInfoPage = () => {
                     </Line>
                     <Line>
                         <Title>프로필 사진</Title>
-                        <ProfileImg src={userimg}/>
+                        <ProfileImg src={mylogo}/>
                     </Line>
                     </>
                 </InfoBox>

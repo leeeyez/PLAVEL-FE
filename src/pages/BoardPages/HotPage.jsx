@@ -17,6 +17,7 @@ import WriteBtn from '../../components/WriteBtn';
 import axios from 'axios';
 import Cookies from 'js-cookie'
 import filter from '../../images/filter.svg';
+import mylogo from '../../images/mypage_icon.png';
 
 const Body = styled.div`
     margin-top: 10vh;
@@ -296,7 +297,7 @@ const HotPage = () => {
                     <MyInfoBox>
                         <Text>나의 정보</Text>
                         <MyDiv>
-                            <ProfileImg src={userimg}/>
+                            <ProfileImg src={mylogo}/>
                             <MyLabelExp>{sub_title[usertype]}</MyLabelExp>
                             <MyName>{usernickname}</MyName>
                             <MyLabel src={label[usertype]}/>
