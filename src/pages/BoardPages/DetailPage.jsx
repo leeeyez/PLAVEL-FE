@@ -21,6 +21,8 @@ import WriteBtn from '../../components/WriteBtn';
 import { useLocation , useNavigate} from 'react-router-dom';
 import axios from 'axios';
 import Rewrite from '../../components/Rewrite.jsx';
+import mylogo from '../../images/mypage_icon.png';
+
 
 const Body = styled.div`
     margin-top: 10vh;
@@ -357,7 +359,7 @@ const DetailPage = () => {
                 <DetailContainer>
                     <Detail>
                         <FirstLine>
-                            <SmallProfileImg src={profileimg}/>
+                            <SmallProfileImg src={mylogo}/>
                             <ProfileDiv>
                                 <ProfName>{post.nickname}</ProfName>
                                 <Date>{detail.updated_at}</Date>
@@ -411,7 +413,7 @@ const DetailPage = () => {
                     <InfoBox>
                         <Text>글쓴이</Text>
                         <InfoDiv>
-                            <ProfileImg src={profile}/>
+                            <ProfileImg src={mylogo}/>
                             <MainInfo>
                                 <Age>{age}세 / {gender[post.gender]}</Age>
                                 <Name>{post.nickname}</Name>
