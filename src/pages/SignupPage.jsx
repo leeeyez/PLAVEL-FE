@@ -327,7 +327,7 @@ const SignupPage = () => {
         localStorage.setItem('useremail', email);
         localStorage.setItem('usergender', gender);
         localStorage.setItem('usernickname', nickname);
-        localStorage.setItem('userimg', imgRef.current.files[0]);
+        localStorage.setItem('userimg', imgFile);
         localStorage.setItem('usertype', 'Black');
         localStorage.setItem('username', name);
         console.log(
@@ -353,7 +353,7 @@ const SignupPage = () => {
             user_birth_date: birth,
             user_nickname: nickname,
             user_bio: introduce,
-            user_profile_pic: imgRef.current.files[0],
+            user_profile_pic: imgFile,
             user_user_type: 'Sun'
 
         })

@@ -149,7 +149,7 @@ const MyInfoPage = () => {
                     </Line>
                     <Line>
                         <Title>프로필 사진</Title>
-                        <ProfileImg src={mylogo}/>
+                        <ProfileImg src={userimg}/>
                     </Line>
                     </>
                 </InfoBox>
