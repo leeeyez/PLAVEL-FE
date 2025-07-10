@@ -1,2 +1,16 @@
-# FE
-PLAVEL Front-End
+# PLAVEL FE
+![Slide 16_9 - 1](https://github.com/user-attachments/assets/4e261294-a147-432c-88a3-87bd9e9ce042)
+![Slide 16_9 - 2 (1)](https://github.com/user-attachments/assets/88d0fd70-6cc5-4a10-89b2-76bd5c886eb4)
+![Slide 16_9 - 3](https://github.com/user-attachments/assets/ad868bcc-6a72-46ab-a6f3-caa6fa5a0aeb)
+![Slide 16_9 - 4](https://github.com/user-attachments/assets/c66b5b17-7578-47fa-b4cf-0e15e8e69a74)
+![Slide 16_9 - 5](https://github.com/user-attachments/assets/a629607a-c091-4267-b693-8c015cc1acb3)
+![Slide 16_9 - 6](https://github.com/user-attachments/assets/d704da02-0750-4da5-8dee-c0beccd84402)
+![Slide 16_9 - 7](https://github.com/user-attachments/assets/4827161d-57bc-45c6-8377-89d020ca302e)
+![Slide 16_9 - 9 (1)](https://github.com/user-attachments/assets/5509b9bf-7dc7-46a5-ac79-9da0bd6da612)
+![Slide 16_9 - 8](https://github.com/user-attachments/assets/e97a8968-c68f-4cc2-973e-780f14c0d218)
+![Slide 16_9 - 10](https://github.com/user-attachments/assets/3cd05aab-ade3-470a-9d5f-7d64cef37f69)
+![Slide 16_9 - 11](https://github.com/user-attachments/assets/19437493-568b-4e75-a2ae-4cd3625ebacd)
+![Slide 16_9 - 12](https://github.com/user-attachments/assets/e1628869-c1c5-47aa-a287-ff79fc8db5a7)
+![Slide 16_9 - 13](https://github.com/user-attachments/assets/fdd9bf5e-5d0a-41fc-8488-79347adaa6bd)
+![Slide 16_9 - 14](https://github.com/user-attachments/assets/3d0aa144-44bc-4b70-951d-298c71be9547)
+![Slide 16_9 - 15](https://github.com/user-attachments/assets/30619159-32cc-4cf9-b122-88c1188969de)
